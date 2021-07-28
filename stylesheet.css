@@ -1,0 +1,30 @@
+*{
+    background-color:#fff;
+}
+
+.titleback{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.info{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    background-color: teal;
+}
+
+.info span{
+    color: yellow;
+    background-color: teal;
+}
+
+ .info-wrapper{
+     display: inline-block;
+     width: 100%;
+     height: auto;
+     background-color: cadetblue;
+ }
