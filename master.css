@@ -1,3 +1,6 @@
+
+
+/*まずはお決まりのボックスサイズ算出をborer-boxに */
 *,
 *:before,
 *:after {
@@ -9,6 +12,25 @@ html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+
+li {
+    list-style-type:none;
+}
+
+.wrapper {
+    width:90%;
+    margin:0 auto;
+}
+
+h1 {
+    text-align:center;
+    padding:20px;
+  font-size: 1.2rem;
+}
+a {
+    color:#333;
+    text-decoration:none;
 }
 
 .btn,
@@ -100,4 +122,22 @@ a.btn-flat {
     display: inline-block;
     position: relative;
     z-index: 1;
+}
+
+.slider a{
+    display: block;
+    background:#fff;
+    padding:20px;
+}
+
+/*日付*/
+.slider span {
+    display:inline-block;
+    font-size:0.8rem;
+    margin-right:10px;
+    color:#777;
+}
+
+.forms{
+    display: inline-block;
 }
